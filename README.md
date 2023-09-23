@@ -1,2 +1,2 @@
 # Digital-Design
-RTL &amp; Synthesis of some Digital Blocks
+RTL &amp; of some Digital Blocks 
