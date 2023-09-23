@@ -1,3 +1,5 @@
+![UART_TX](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/8b796b50-785a-47e0-8b70-fcca928584bc)
+
 # UART Communication Overview
 
 Serial communication plays a fundamental role in digital systems, with several prominent protocols like I2C, UART, and SPI in use. In this README, we focus on the Universal Asynchronous Receiver/Transmitter (UART) protocol, which is a crucial component for executing serial communication.
