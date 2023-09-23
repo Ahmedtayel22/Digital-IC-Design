@@ -1,0 +1,48 @@
+module UART_PARITY (P_DATA, PAR_TYP, CLK, RST, par_bit, ser_en);
+input [7:0] P_DATA;
+input       PAR_TYP;
+input       CLK;
+input       RST;
+input       ser_en;
+output      par_bit;
+
+reg par_bit;
+reg [7:0] parity_regs;
+reg [3:0] Ones;
+
+parameter even = 0;
+parameter odd = 1;
+
+always @ (posedge CLK or negedge RST)
+begin
+    if(!RST)
+    begin
+        par_bit <= 0;
+        parity_regs <=0;
+        Ones <= 0;
+    end
+        else if (!ser_en)
+        begin
+            parity_regs <= P_DATA;  
+        end
+    else 
+    case (PAR_TYP)
+    even:
+        begin
+        Ones <= parity_regs[0] + parity_regs[1] + parity_regs[2] + parity_regs[3] + parity_regs[4] + parity_regs[5] + parity_regs[6] + parity_regs[7];
+        if (Ones == 1 || Ones == 3 || Ones == 5)
+        par_bit <= 1;
+        else
+        par_bit <= 0;
+        end
+    odd:
+        begin
+        Ones <= parity_regs[0] + parity_regs[1] + parity_regs[2] + parity_regs[3] + parity_regs[4] + parity_regs[5] + parity_regs[6] + parity_regs[7];
+        if (Ones == 0 || Ones == 2 || Ones == 4 || Ones == 6)
+        par_bit <= 1;
+        else
+        par_bit <= 0;
+        end
+    endcase
+end
+endmodule

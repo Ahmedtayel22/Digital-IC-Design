@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : area
+Design : UART_TX
+Version: K-2015.06
+Date   : Wed Sep 20 03:17:13 2023
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/SYSTEM/UART_TX/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                           69
+Number of nets:                           139
+Number of cells:                           75
+Number of combinational cells:             50
+Number of sequential cells:                20
+Number of macros/black boxes:               0
+Number of buf/inv:                         10
+Number of references:                       5
+
+Combinational area:                437.732404
+Buf/Inv area:                       36.477701
+Noncombinational area:             620.120911
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1057.853315
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------------------
+UART_TX                           1057.8533    100.0    0.0000     0.0000  0.0000  UART_TX
+CLK_mux2x1                          11.7670      1.1   11.7670     0.0000  0.0000  mux2X1_1
+DUT0                               744.8511     70.4  316.5323   428.3188  0.0000  Serializer_parityCalc_test_1
+DUT1                               215.3361     20.4   70.6020   144.7341  0.0000  TX_FSM_test_1
+DUT2                                74.1321      7.0   27.0641    47.0680  0.0000  TX_MUX_test_1
+RST_mux2x1                          11.7670      1.1   11.7670     0.0000  0.0000  mux2X1_0
+--------------------------------  ---------  -------  --------  ---------  ------  ----------------------------
+Total                                                 437.7324   620.1209  0.0000
+
+1
