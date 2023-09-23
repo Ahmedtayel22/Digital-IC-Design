@@ -1,3 +1,3 @@
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/dc8824ff-e451-44f2-a91e-90f45c2c49ac)
+  ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/dc8824ff-e451-44f2-a91e-90f45c2c49ac)
 
 - The Asynchronous FIFO is designed as a two-port memory structure with a defined depth capacity. Its operation relies on the presence of two distinct clocks: one for read operations (i_rclk) and another for write operations (i_wclk). Furthermore, this memory configuration incorporates separate address pointers, one designated for read and the other for write actions. When data needs to be stored, it is written to the specific location identified by the write address, and when retrieval is necessary, the data is accessed from the location indicated by the read address. This dual-clock, dual-address architecture enables efficient asynchronous data handling within the FIFO memory.
