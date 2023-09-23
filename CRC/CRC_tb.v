@@ -45,10 +45,7 @@ task New_data; /***call it like "New_data(yourdata, case_No, data_index);"***/
     input [4:0] case_No;
     input [4:0] data_index;
     begin
-    //#(clk_period) rst_tb=0;
-    //#(clk_period) rst_tb=1; 
-    
-    @(negedge clk_tb) active_tb=1; data_tb = yourdata[0]; //Data @negedge to be ready @ the posedge of clk 
+    @(negedge clk_tb) active_tb=1; data_tb = yourdata[0]; 
     #(clk_period) data_tb = yourdata[1];
     #(clk_period) data_tb = yourdata[2];
     #(clk_period) data_tb = yourdata[3];
@@ -58,7 +55,7 @@ task New_data; /***call it like "New_data(yourdata, case_No, data_index);"***/
     #(clk_period) data_tb = yourdata[7]; 
     #(clk_period) active_tb=0;
     $display("****CASE No.%d****", case_No);
-    //$display("Data -->'h%2h && expec_out -->'h%2h", DATA_h[data_index],Expec_Out_h[data_index]);
+
     end
 endtask
 
