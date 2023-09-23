@@ -1,0 +1,368 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 5
+Design : UART_TX
+Version: K-2015.06
+Date   : Wed Sep 20 03:17:13 2023
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c   Library: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c
+Wire Load Model Mode: top
+
+  Startpoint: P_DATA[2] (input port clocked by SysCLK)
+  Endpoint: DUT0/registers_reg_2_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   30.00      30.00 r
+  P_DATA[2] (in)                                          0.01      30.01 r
+  DUT0/P_DATA[2] (Serializer_parityCalc_test_1)           0.00      30.01 r
+  DUT0/U31/Y (AO22X1M)                                    0.14      30.15 r
+  DUT0/registers_reg_2_/D (SDFFRQX2M)                     0.00      30.15 r
+  data arrival time                                                 30.15
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT0/registers_reg_2_/CK (SDFFRQX2M)                    0.00       0.05 r
+  library hold time                                      -0.16      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                -30.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       30.26
+
+
+  Startpoint: P_DATA[5] (input port clocked by SysCLK)
+  Endpoint: DUT0/registers_reg_5_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   30.00      30.00 r
+  P_DATA[5] (in)                                          0.01      30.01 r
+  DUT0/P_DATA[5] (Serializer_parityCalc_test_1)           0.00      30.01 r
+  DUT0/U28/Y (AO22X1M)                                    0.14      30.15 r
+  DUT0/registers_reg_5_/D (SDFFRQX2M)                     0.00      30.15 r
+  data arrival time                                                 30.15
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT0/registers_reg_5_/CK (SDFFRQX2M)                    0.00       0.05 r
+  library hold time                                      -0.16      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                -30.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       30.26
+
+
+  Startpoint: P_DATA[1] (input port clocked by SysCLK)
+  Endpoint: DUT0/registers_reg_1_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   30.00      30.00 r
+  P_DATA[1] (in)                                          0.01      30.01 r
+  DUT0/P_DATA[1] (Serializer_parityCalc_test_1)           0.00      30.01 r
+  DUT0/U27/Y (AO22X1M)                                    0.14      30.15 r
+  DUT0/registers_reg_1_/D (SDFFRQX2M)                     0.00      30.15 r
+  data arrival time                                                 30.15
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT0/registers_reg_1_/CK (SDFFRQX2M)                    0.00       0.05 r
+  library hold time                                      -0.16      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                -30.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       30.26
+
+
+  Startpoint: P_DATA[6] (input port clocked by SysCLK)
+  Endpoint: DUT0/registers_reg_6_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   30.00      30.00 r
+  P_DATA[6] (in)                                          0.01      30.01 r
+  DUT0/P_DATA[6] (Serializer_parityCalc_test_1)           0.00      30.01 r
+  DUT0/U26/Y (AO22X1M)                                    0.14      30.15 r
+  DUT0/registers_reg_6_/D (SDFFRQX2M)                     0.00      30.15 r
+  data arrival time                                                 30.15
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT0/registers_reg_6_/CK (SDFFRQX2M)                    0.00       0.05 r
+  library hold time                                      -0.16      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                -30.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       30.26
+
+
+  Startpoint: P_DATA[0] (input port clocked by SysCLK)
+  Endpoint: DUT0/registers_reg_0_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   30.00      30.00 r
+  P_DATA[0] (in)                                          0.01      30.01 r
+  DUT0/P_DATA[0] (Serializer_parityCalc_test_1)           0.00      30.01 r
+  DUT0/U32/Y (AO22X1M)                                    0.14      30.15 r
+  DUT0/registers_reg_0_/D (SDFFRQX2M)                     0.00      30.15 r
+  data arrival time                                                 30.15
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT0/registers_reg_0_/CK (SDFFRQX2M)                    0.00       0.05 r
+  library hold time                                      -0.16      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                -30.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       30.26
+
+
+  Startpoint: DUT2/MUX_OUT_reg
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: TX_OUT (output port clocked by SysCLK)
+  Path Group: REGOUT
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock SysCLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  DUT2/MUX_OUT_reg/CK (SDFFSHQX8M)         0.00       0.00 r
+  DUT2/MUX_OUT_reg/Q (SDFFSHQX8M)          0.66       0.66 f
+  DUT2/MUX_OUT (TX_MUX_test_1)             0.00       0.66 f
+  TX_OUT (out)                             0.00       0.66 f
+  data arrival time                                   0.66
+
+  clock SysCLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.05       0.05
+  output external delay                  -30.00     -29.95
+  data required time                                -29.95
+  -----------------------------------------------------------
+  data required time                                -29.95
+  data arrival time                                  -0.66
+  -----------------------------------------------------------
+  slack (MET)                                        30.61
+
+
+  Startpoint: DUT1/BUSY_reg
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: BUSY (output port clocked by SysCLK)
+  Path Group: REGOUT
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock SysCLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  DUT1/BUSY_reg/CK (SDFFRHQX8M)            0.00       0.00 r
+  DUT1/BUSY_reg/Q (SDFFRHQX8M)             0.71       0.71 f
+  DUT1/BUSY (TX_FSM_test_1)                0.00       0.71 f
+  BUSY (out)                               0.00       0.71 f
+  data arrival time                                   0.71
+
+  clock SysCLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.05       0.05
+  output external delay                  -30.00     -29.95
+  data required time                                -29.95
+  -----------------------------------------------------------
+  data required time                                -29.95
+  data arrival time                                  -0.71
+  -----------------------------------------------------------
+  slack (MET)                                        30.66
+
+
+  Startpoint: DUT1/current_state_reg_2_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: DUT2/MUX_OUT_reg
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT1/current_state_reg_2_/CK (SDFFRX1M)                 0.00       0.00 r
+  DUT1/current_state_reg_2_/QN (SDFFRX1M)                 0.37       0.37 r
+  DUT1/test_so1 (TX_FSM_test_1)                           0.00       0.37 r
+  DUT2/test_si (TX_MUX_test_1)                            0.00       0.37 r
+  DUT2/MUX_OUT_reg/SI (SDFFSHQX8M)                        0.00       0.37 r
+  data arrival time                                                  0.37
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT2/MUX_OUT_reg/CK (SDFFSHQX8M)                        0.00       0.05 r
+  library hold time                                      -0.18      -0.13
+  data required time                                                -0.13
+  --------------------------------------------------------------------------
+  data required time                                                -0.13
+  data arrival time                                                 -0.37
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.50
+
+
+  Startpoint: DUT0/ser_data_reg
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: DUT0/ser_done_reg
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock SysCLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  DUT0/ser_data_reg/CK (SDFFRQX2M)         0.00       0.00 r
+  DUT0/ser_data_reg/Q (SDFFRQX2M)          0.38       0.38 r
+  DUT0/ser_done_reg/SI (SDFFRQX2M)         0.00       0.38 r
+  data arrival time                                   0.38
+
+  clock SysCLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.05       0.05
+  DUT0/ser_done_reg/CK (SDFFRQX2M)         0.00       0.05 r
+  library hold time                       -0.18      -0.13
+  data required time                                 -0.13
+  -----------------------------------------------------------
+  data required time                                 -0.13
+  data arrival time                                  -0.38
+  -----------------------------------------------------------
+  slack (MET)                                         0.51
+
+
+  Startpoint: DUT0/registers_reg_2_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: DUT0/registers_reg_3_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT0/registers_reg_2_/CK (SDFFRQX2M)                    0.00       0.00 r
+  DUT0/registers_reg_2_/Q (SDFFRQX2M)                     0.40       0.40 r
+  DUT0/registers_reg_3_/SI (SDFFRQX2M)                    0.00       0.40 r
+  data arrival time                                                  0.40
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT0/registers_reg_3_/CK (SDFFRQX2M)                    0.00       0.05 r
+  library hold time                                      -0.18      -0.13
+  data required time                                                -0.13
+  --------------------------------------------------------------------------
+  data required time                                                -0.13
+  data arrival time                                                 -0.40
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.53
+
+
+  Startpoint: DUT0/registers_reg_1_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: DUT0/registers_reg_2_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT0/registers_reg_1_/CK (SDFFRQX2M)                    0.00       0.00 r
+  DUT0/registers_reg_1_/Q (SDFFRQX2M)                     0.40       0.40 r
+  DUT0/registers_reg_2_/SI (SDFFRQX2M)                    0.00       0.40 r
+  data arrival time                                                  0.40
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT0/registers_reg_2_/CK (SDFFRQX2M)                    0.00       0.05 r
+  library hold time                                      -0.18      -0.13
+  data required time                                                -0.13
+  --------------------------------------------------------------------------
+  data required time                                                -0.13
+  data arrival time                                                 -0.40
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.53
+
+
+  Startpoint: DUT0/registers_reg_5_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: DUT0/registers_reg_6_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT0/registers_reg_5_/CK (SDFFRQX2M)                    0.00       0.00 r
+  DUT0/registers_reg_5_/Q (SDFFRQX2M)                     0.40       0.40 r
+  DUT0/registers_reg_6_/SI (SDFFRQX2M)                    0.00       0.40 r
+  data arrival time                                                  0.40
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  DUT0/registers_reg_6_/CK (SDFFRQX2M)                    0.00       0.05 r
+  library hold time                                      -0.18      -0.13
+  data required time                                                -0.13
+  --------------------------------------------------------------------------
+  data required time                                                -0.13
+  data arrival time                                                 -0.40
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.53
+
+
+1
