@@ -1,3 +1,7 @@
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/54f0d0d5-6c39-491e-bf3a-f11cef801b24)
+
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/41ab0201-5047-4705-8ad2-01aef903523f)
+
 # Automatic Garage Door Controller
 
 ## Introduction
