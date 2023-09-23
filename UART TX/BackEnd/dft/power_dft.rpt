@@ -1,0 +1,43 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : UART_TX
+Version: K-2015.06
+Date   : Wed Sep 20 03:17:13 2023
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/SYSTEM/UART_TX/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+UART_TX                                1.61e-03 5.06e-03 6.30e+05 7.30e-03 100.0
+  DUT2 (TX_MUX_test_1)                 4.28e-04 4.79e-04 5.38e+04 9.61e-04  13.2
+  DUT1 (TX_FSM_test_1)                 5.13e-04 1.18e-03 1.20e+05 1.82e-03  24.9
+  DUT0 (Serializer_parityCalc_test_1)  2.00e-04 3.20e-03 4.29e+05 3.83e-03  52.4
+  RST_mux2x1 (mux2X1_0)                5.08e-05 1.02e-05 1.37e+04 7.47e-05   1.0
+  CLK_mux2x1 (mux2X1_1)                4.18e-04 1.94e-04 1.37e+04 6.26e-04   8.6
+1
