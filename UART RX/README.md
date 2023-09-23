@@ -1,3 +1,4 @@
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/1988808d-18ab-4c45-8fda-e477056497d1)
 
 ![UART_RX](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/26ec0148-9266-4792-82a1-53eb3534c165)
 
