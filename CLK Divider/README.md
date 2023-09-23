@@ -1,3 +1,7 @@
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/83b185fe-26b2-4f6a-b83b-76e9de184677)
+
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/726c1318-9c8d-4bdb-aaee-07c082cb4972)
+
 # Integer Clock Divider
 
 ## Introduction
