@@ -1,3 +1,4 @@
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/e0d37bfd-2c91-41a7-8df7-5f6c73d0aeaf)
 # 16-bit Arithmetic Logic Unit (ALU) - ALU_TOP
 
 ## Introduction
