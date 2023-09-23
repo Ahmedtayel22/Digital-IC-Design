@@ -1,29 +1,34 @@
-# 16-bit Arithmetic Logic Unit (ALU)
+# 16-bit Arithmetic Logic Unit (ALU) - ALU_TOP
 
 ## Introduction
 
-The 16-bit Arithmetic Logic Unit (ALU) serves as a foundational component within a processor, responsible for executing a wide range of operations, including arithmetic calculations, logical functions, shifts, and comparisons.
+ALU_TOP serves as the foundational building block of a processor, playing a vital role in executing a diverse set of functions:
 
-## Specification
+- **Arithmetic Functions:** Performed through the ARITHMETIC_UNIT block.
+- **Logic Functions:** Executed via the LOGIC_UNIT block.
+- **Shift Functions:** Controlled by the SHIFT_UNIT block.
+- **Comparison Functions:** Handled by the CMP_UNIT block.
+- **Function Decoding:** The Decoder Unit enables specific functions based on the most significant 2 bits of the ALU_FUNC control bus (ALU_FUNC[3:2]).
 
-### Key Components
+## Specifications
 
-- **ALU Operands (A, B):** The ALU accepts two 16-bit operands, denoted as A and B.
-- **ALU Result (ALU_OUT):** The output of the ALU, also 16 bits wide, is referred to as ALU_OUT. It is registered to ensure stability and reliability.
+### Core Characteristics
 
-### ALU Functionality
+- **Registered Outputs:** All outputs from ALU_TOP are registered to ensure reliable and stable operation.
+- **Reset Functionality:** Asynchronous active low reset signals are employed to clear all registers.
+- **Functional Flags:**
+  - **Arith_flag:** Activated to "High" exclusively during arithmetic operations, including addition, subtraction, multiplication, or division; otherwise, it remains "LOW."
+  - **Logic_flag:** Raised to "High" only when the ALU executes Boolean operations like AND, OR, NAND, or NOR; otherwise, it stays "LOW."
+  - **CMP_flag:** Set to "High" during comparison operations (Equal, Greater than, Less than) or when a NOP operation is performed; otherwise, it remains "LOW."
+  - **Shift_flag:** Becomes "High" solely when the ALU engages in shifting operations, such as shift right or shift left; otherwise, it remains "LOW."
+- **Function Selection:** ALU_TOP's operation is determined by the ALU_FUN input signal, as specified in the table below.
 
-The ALU carries out its operations based on the value of the ALU_FUN input signal, as defined in the table below. If the ALU_FUN input signal specifies an operation not listed in the table, the ALU_OUT result must be 16’b0.
+### Function Block Enable
 
-### Flags
-
-- **Arith_flag:** This flag is set to "High" only when the ALU performs one of the arithmetic operations, which include addition, subtraction, multiplication, or division; otherwise, it remains "LOW."
-- **Logic_flag:** The Logic_flag is activated "High" exclusively during Boolean operations, such as AND, OR, NAND, NOR, XOR, or XNOR; otherwise, it remains "LOW."
-- **CMP_flag:** When the ALU executes a comparison operation (Equal, Greater than, Less than), the CMP_flag is set to "High"; otherwise, it remains "LOW."
-- **Shift_flag:** This flag becomes "High" only when the ALU is engaged in shifting operations, such as shift right or shift left; otherwise, it stays "LOW."
+- **Arith_Enable, Logic_Enable, SHIFT_Enable, and CMP_Enable:** These are block enable signals responsible for enabling or disabling the respective function blocks within ALU_TOP.
 
 ## Usage
 
-The 16-bit ALU is a fundamental component of a processor and can be seamlessly integrated into various digital designs. To incorporate this ALU into your project, please refer to the accompanying documentation and resources for comprehensive implementation instructions and usage guidance.
+The 16-bit ALU_TOP is a versatile and crucial component of a processor, capable of performing a wide range of operations. To integrate ALU_TOP into your project, please consult the provided documentation and resources for comprehensive implementation instructions and usage guidelines.
 
-This README provides an introductory overview of the 16-bit ALU, highlighting its core specifications and functional characteristics. For in-depth technical details, specific use cases, and practical implementations, please consult the associated documentation and resources related to the ALU.
+This README offers an introductory overview of ALU_TOP, highlighting its core specifications and functional components. For detailed technical insights, specific use cases, and practical implementations, refer to the accompanying documentation and resources related to ALU_TOP.
