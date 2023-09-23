@@ -1,0 +1,177 @@
+**************************************************
+Report         : passing_points
+
+Reference      : Ref:/WORK/UART_RX
+Implementation : Imp:/WORK/UART_RX
+Version        : L-2016.03-SP1
+Date           : Sun Sep 24 02:15:03 2023
+**************************************************
+
+47 Passing compare points:
+
+  Ref  DFF        Ref:/WORK/UART_RX/FSM/current_state_reg[0]
+  Impl DFF        Imp:/WORK/UART_RX/FSM/current_state_reg_0_
+
+  Ref  DFF        Ref:/WORK/UART_RX/FSM/current_state_reg[1]
+  Impl DFF        Imp:/WORK/UART_RX/FSM/current_state_reg_1_
+
+  Ref  DFF        Ref:/WORK/UART_RX/FSM/current_state_reg[2]
+  Impl DFF        Imp:/WORK/UART_RX/FSM/current_state_reg_2_
+
+  Ref  DFF        Ref:/WORK/UART_RX/FSM/data_valid_reg
+  Impl DFF        Imp:/WORK/UART_RX/FSM/data_valid_reg
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/bit_cnt_reg[0]
+  Impl DFF        Imp:/WORK/UART_RX/counter/bit_cnt_reg_0_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/bit_cnt_reg[1]
+  Impl DFF        Imp:/WORK/UART_RX/counter/bit_cnt_reg_1_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/bit_cnt_reg[2]
+  Impl DFF        Imp:/WORK/UART_RX/counter/bit_cnt_reg_2_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/bit_cnt_reg[3]
+  Impl DFF        Imp:/WORK/UART_RX/counter/bit_cnt_reg_3_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/edge_cnt_reg[0]
+  Impl DFF        Imp:/WORK/UART_RX/counter/edge_cnt_reg_0_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/edge_cnt_reg[1]
+  Impl DFF        Imp:/WORK/UART_RX/counter/edge_cnt_reg_1_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/edge_cnt_reg[2]
+  Impl DFF        Imp:/WORK/UART_RX/counter/edge_cnt_reg_2_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/edge_cnt_reg[3]
+  Impl DFF        Imp:/WORK/UART_RX/counter/edge_cnt_reg_3_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/edge_cnt_reg[4]
+  Impl DFF        Imp:/WORK/UART_RX/counter/edge_cnt_reg_4_
+
+  Ref  DFF        Ref:/WORK/UART_RX/counter/edge_cnt_reg[5]
+  Impl DFF        Imp:/WORK/UART_RX/counter/edge_cnt_reg_5_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg[0]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg_0_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg[1]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg_1_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg[2]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg_2_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg[3]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg_3_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg[4]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg_4_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg[5]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg_5_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg[6]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg_6_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg[7]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/P_DATA_reg_7_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/registers_reg[0]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/registers_reg_0_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/registers_reg[1]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/registers_reg_1_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/registers_reg[2]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/registers_reg_2_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/registers_reg[3]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/registers_reg_3_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/registers_reg[4]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/registers_reg_4_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/registers_reg[5]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/registers_reg_5_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/registers_reg[6]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/registers_reg_6_
+
+  Ref  DFF        Ref:/WORK/UART_RX/deserializer_parityCalc/registers_reg[7]
+  Impl DFF        Imp:/WORK/UART_RX/deserializer_parityCalc/registers_reg_7_
+
+  Ref  DFF        Ref:/WORK/UART_RX/par_checker/par_err_reg
+  Impl DFF        Imp:/WORK/UART_RX/par_checker/par_err_reg
+
+  Ref  DFF        Ref:/WORK/UART_RX/sampler/DONE_reg
+  Impl DFF        Imp:/WORK/UART_RX/sampler/DONE_reg
+
+  Ref  DFF        Ref:/WORK/UART_RX/sampler/sampled_bit_reg
+  Impl DFF        Imp:/WORK/UART_RX/sampler/sampled_bit_reg
+
+  Ref  DFF        Ref:/WORK/UART_RX/sampler/samples_reg[0]
+  Impl DFF        Imp:/WORK/UART_RX/sampler/samples_reg_0_
+
+  Ref  DFF        Ref:/WORK/UART_RX/sampler/samples_reg[1]
+  Impl DFF        Imp:/WORK/UART_RX/sampler/samples_reg_1_
+
+  Ref  DFF        Ref:/WORK/UART_RX/sampler/samples_reg[2]
+  Impl DFF        Imp:/WORK/UART_RX/sampler/samples_reg_2_
+
+  Ref  DFF        Ref:/WORK/UART_RX/stp_checker/stp_err_reg
+  Impl DFF        Imp:/WORK/UART_RX/stp_checker/stp_err_reg
+
+  Ref  DFF        Ref:/WORK/UART_RX/strt_checker/strt_glitch_reg
+  Impl DFF        Imp:/WORK/UART_RX/strt_checker/strt_glitch_reg
+
+  Ref  Port       Ref:/WORK/UART_RX/P_DATA[0]
+  Impl Port       Imp:/WORK/UART_RX/P_DATA[0]
+
+  Ref  Port       Ref:/WORK/UART_RX/P_DATA[1]
+  Impl Port       Imp:/WORK/UART_RX/P_DATA[1]
+
+  Ref  Port       Ref:/WORK/UART_RX/P_DATA[2]
+  Impl Port       Imp:/WORK/UART_RX/P_DATA[2]
+
+  Ref  Port       Ref:/WORK/UART_RX/P_DATA[3]
+  Impl Port       Imp:/WORK/UART_RX/P_DATA[3]
+
+  Ref  Port       Ref:/WORK/UART_RX/P_DATA[4]
+  Impl Port       Imp:/WORK/UART_RX/P_DATA[4]
+
+  Ref  Port       Ref:/WORK/UART_RX/P_DATA[5]
+  Impl Port       Imp:/WORK/UART_RX/P_DATA[5]
+
+  Ref  Port       Ref:/WORK/UART_RX/P_DATA[6]
+  Impl Port       Imp:/WORK/UART_RX/P_DATA[6]
+
+  Ref  Port       Ref:/WORK/UART_RX/P_DATA[7]
+  Impl Port       Imp:/WORK/UART_RX/P_DATA[7]
+
+  Ref  Port       Ref:/WORK/UART_RX/data_valid
+  Impl Port       Imp:/WORK/UART_RX/data_valid
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

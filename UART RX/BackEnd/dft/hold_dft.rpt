@@ -1,0 +1,468 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 5
+Design : UART_RX
+Version: K-2015.06
+Date   : Sun Sep 24 02:16:38 2023
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c   Library: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c
+Wire Load Model Mode: top
+
+  Startpoint: RX_IN (input port clocked by SysCLK)
+  Endpoint: sampler/samples_reg_0_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    1.50       1.50 r
+  RX_IN (in)                                              0.04       1.54 r
+  sampler/RX_IN (data_sampling_test_1)                    0.00       1.54 r
+  sampler/U44/Y (OAI2BB2X1M)                              0.15       1.69 r
+  sampler/samples_reg_0_/D (SDFFRQX2M)                    0.00       1.69 r
+  data arrival time                                                  1.69
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  sampler/samples_reg_0_/CK (SDFFRQX2M)                   0.00       0.05 r
+  library hold time                                      -0.16      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -1.69
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.79
+
+
+  Startpoint: RX_IN (input port clocked by SysCLK)
+  Endpoint: sampler/samples_reg_1_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    1.50       1.50 r
+  RX_IN (in)                                              0.04       1.54 r
+  sampler/RX_IN (data_sampling_test_1)                    0.00       1.54 r
+  sampler/U56/Y (INVX2M)                                  0.05       1.59 f
+  sampler/U38/Y (OAI2BB2X1M)                              0.11       1.70 r
+  sampler/samples_reg_1_/D (SDFFRQX2M)                    0.00       1.70 r
+  data arrival time                                                  1.70
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  sampler/samples_reg_1_/CK (SDFFRQX2M)                   0.00       0.05 r
+  library hold time                                      -0.16      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -1.70
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.81
+
+
+  Startpoint: PAR_EN (input port clocked by SysCLK)
+  Endpoint: FSM/current_state_reg_0_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    1.50       1.50 r
+  PAR_EN (in)                                             0.04       1.54 r
+  FSM/PAR_EN (FSM_test_1)                                 0.00       1.54 r
+  FSM/U36/Y (NAND3X2M)                                    0.10       1.64 f
+  FSM/U35/Y (NAND3X2M)                                    0.07       1.70 r
+  FSM/current_state_reg_0_/D (SDFFRX1M)                   0.00       1.70 r
+  data arrival time                                                  1.70
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  FSM/current_state_reg_0_/CK (SDFFRX1M)                  0.00       0.05 r
+  library hold time                                      -0.17      -0.12
+  data required time                                                -0.12
+  --------------------------------------------------------------------------
+  data required time                                                -0.12
+  data arrival time                                                 -1.70
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.82
+
+
+  Startpoint: RX_IN (input port clocked by SysCLK)
+  Endpoint: sampler/samples_reg_2_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    1.50       1.50 r
+  RX_IN (in)                                              0.04       1.54 r
+  sampler/RX_IN (data_sampling_test_1)                    0.00       1.54 r
+  sampler/U56/Y (INVX2M)                                  0.05       1.59 f
+  sampler/U42/Y (OAI2BB2X1M)                              0.13       1.72 r
+  sampler/samples_reg_2_/D (SDFFRQX2M)                    0.00       1.72 r
+  data arrival time                                                  1.72
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  sampler/samples_reg_2_/CK (SDFFRQX2M)                   0.00       0.05 r
+  library hold time                                      -0.16      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -1.72
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.83
+
+
+  Startpoint: PAR_EN (input port clocked by SysCLK)
+  Endpoint: FSM/current_state_reg_1_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: INREG
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    1.50       1.50 r
+  PAR_EN (in)                                             0.04       1.54 r
+  FSM/PAR_EN (FSM_test_1)                                 0.00       1.54 r
+  FSM/U34/Y (INVX2M)                                      0.05       1.59 f
+  FSM/U17/Y (NAND3X2M)                                    0.07       1.66 r
+  FSM/U32/Y (AOI32X1M)                                    0.08       1.75 f
+  FSM/U31/Y (OAI21X2M)                                    0.06       1.80 r
+  FSM/current_state_reg_1_/D (SDFFRX1M)                   0.00       1.80 r
+  data arrival time                                                  1.80
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  FSM/current_state_reg_1_/CK (SDFFRX1M)                  0.00       0.05 r
+  library hold time                                      -0.17      -0.12
+  data required time                                                -0.12
+  --------------------------------------------------------------------------
+  data required time                                                -0.12
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.92
+
+
+  Startpoint: FSM/data_valid_reg
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: data_valid (output port clocked by SysCLK)
+  Path Group: REGOUT
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock SysCLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  FSM/data_valid_reg/CK (SDFFRHQX8M)       0.00       0.00 r
+  FSM/data_valid_reg/Q (SDFFRHQX8M)        0.71       0.71 f
+  FSM/data_valid (FSM_test_1)              0.00       0.71 f
+  data_valid (out)                         0.00       0.71 f
+  data arrival time                                   0.71
+
+  clock SysCLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.05       0.05
+  output external delay                   -1.50      -1.45
+  data required time                                 -1.45
+  -----------------------------------------------------------
+  data required time                                 -1.45
+  data arrival time                                  -0.71
+  -----------------------------------------------------------
+  slack (MET)                                         2.16
+
+
+  Startpoint: deserializer_parityCalc/P_DATA_reg_7_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: P_DATA[7] (output port clocked by SysCLK)
+  Path Group: REGOUT
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  deserializer_parityCalc/P_DATA_reg_7_/CK (SDFFRHQX8M)
+                                                          0.00       0.00 r
+  deserializer_parityCalc/P_DATA_reg_7_/Q (SDFFRHQX8M)
+                                                          0.71       0.71 f
+  deserializer_parityCalc/P_DATA[7] (deserializer_parityCalc_test_1)
+                                                          0.00       0.71 f
+  P_DATA[7] (out)                                         0.00       0.71 f
+  data arrival time                                                  0.71
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  output external delay                                  -1.50      -1.45
+  data required time                                                -1.45
+  --------------------------------------------------------------------------
+  data required time                                                -1.45
+  data arrival time                                                 -0.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.16
+
+
+  Startpoint: deserializer_parityCalc/P_DATA_reg_6_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: P_DATA[6] (output port clocked by SysCLK)
+  Path Group: REGOUT
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  deserializer_parityCalc/P_DATA_reg_6_/CK (SDFFRHQX8M)
+                                                          0.00       0.00 r
+  deserializer_parityCalc/P_DATA_reg_6_/Q (SDFFRHQX8M)
+                                                          0.71       0.71 f
+  deserializer_parityCalc/P_DATA[6] (deserializer_parityCalc_test_1)
+                                                          0.00       0.71 f
+  P_DATA[6] (out)                                         0.00       0.71 f
+  data arrival time                                                  0.71
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  output external delay                                  -1.50      -1.45
+  data required time                                                -1.45
+  --------------------------------------------------------------------------
+  data required time                                                -1.45
+  data arrival time                                                 -0.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.16
+
+
+  Startpoint: deserializer_parityCalc/P_DATA_reg_1_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: P_DATA[1] (output port clocked by SysCLK)
+  Path Group: REGOUT
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  deserializer_parityCalc/P_DATA_reg_1_/CK (SDFFRHQX8M)
+                                                          0.00       0.00 r
+  deserializer_parityCalc/P_DATA_reg_1_/Q (SDFFRHQX8M)
+                                                          0.71       0.71 f
+  deserializer_parityCalc/P_DATA[1] (deserializer_parityCalc_test_1)
+                                                          0.00       0.71 f
+  P_DATA[1] (out)                                         0.00       0.71 f
+  data arrival time                                                  0.71
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  output external delay                                  -1.50      -1.45
+  data required time                                                -1.45
+  --------------------------------------------------------------------------
+  data required time                                                -1.45
+  data arrival time                                                 -0.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.16
+
+
+  Startpoint: deserializer_parityCalc/P_DATA_reg_0_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: P_DATA[0] (output port clocked by SysCLK)
+  Path Group: REGOUT
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  deserializer_parityCalc/P_DATA_reg_0_/CK (SDFFRHQX8M)
+                                                          0.00       0.00 r
+  deserializer_parityCalc/P_DATA_reg_0_/Q (SDFFRHQX8M)
+                                                          0.71       0.71 f
+  deserializer_parityCalc/P_DATA[0] (deserializer_parityCalc_test_1)
+                                                          0.00       0.71 f
+  P_DATA[0] (out)                                         0.00       0.71 f
+  data arrival time                                                  0.71
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  output external delay                                  -1.50      -1.45
+  data required time                                                -1.45
+  --------------------------------------------------------------------------
+  data required time                                                -1.45
+  data arrival time                                                 -0.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.16
+
+
+  Startpoint: sampler/sampled_bit_reg
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: sampler/samples_reg_0_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  sampler/sampled_bit_reg/CK (SDFFRX1M)                   0.00       0.00 r
+  sampler/sampled_bit_reg/QN (SDFFRX1M)                   0.30       0.30 r
+  sampler/samples_reg_0_/SI (SDFFRQX2M)                   0.00       0.30 r
+  data arrival time                                                  0.30
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  sampler/samples_reg_0_/CK (SDFFRQX2M)                   0.00       0.05 r
+  library hold time                                      -0.18      -0.13
+  data required time                                                -0.13
+  --------------------------------------------------------------------------
+  data required time                                                -0.13
+  data arrival time                                                 -0.30
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+  Startpoint: FSM/current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: FSM/current_state_reg_1_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  FSM/current_state_reg_0_/CK (SDFFRX1M)                  0.00       0.00 r
+  FSM/current_state_reg_0_/QN (SDFFRX1M)                  0.31       0.31 r
+  FSM/current_state_reg_1_/SI (SDFFRX1M)                  0.00       0.31 r
+  data arrival time                                                  0.31
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  FSM/current_state_reg_1_/CK (SDFFRX1M)                  0.00       0.05 r
+  library hold time                                      -0.20      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.31
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: counter/bit_cnt_reg_3_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: counter/edge_cnt_reg_0_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  counter/bit_cnt_reg_3_/CK (SDFFRX1M)                    0.00       0.00 r
+  counter/bit_cnt_reg_3_/QN (SDFFRX1M)                    0.34       0.34 r
+  counter/edge_cnt_reg_0_/SI (SDFFRQX2M)                  0.00       0.34 r
+  data arrival time                                                  0.34
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  counter/edge_cnt_reg_0_/CK (SDFFRQX2M)                  0.00       0.05 r
+  library hold time                                      -0.18      -0.13
+  data required time                                                -0.13
+  --------------------------------------------------------------------------
+  data required time                                                -0.13
+  data arrival time                                                 -0.34
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.47
+
+
+  Startpoint: FSM/current_state_reg_2_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: FSM/data_valid_reg
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  FSM/current_state_reg_2_/CK (SDFFRX1M)                  0.00       0.00 r
+  FSM/current_state_reg_2_/Q (SDFFRX1M)                   0.41       0.41 r
+  FSM/data_valid_reg/SI (SDFFRHQX8M)                      0.00       0.41 r
+  data arrival time                                                  0.41
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  FSM/data_valid_reg/CK (SDFFRHQX8M)                      0.00       0.05 r
+  library hold time                                      -0.12      -0.07
+  data required time                                                -0.07
+  --------------------------------------------------------------------------
+  data required time                                                -0.07
+  data arrival time                                                 -0.41
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.48
+
+
+  Startpoint: counter/bit_cnt_reg_2_
+              (rising edge-triggered flip-flop clocked by SysCLK)
+  Endpoint: counter/bit_cnt_reg_3_
+            (rising edge-triggered flip-flop clocked by SysCLK)
+  Path Group: SysCLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  counter/bit_cnt_reg_2_/CK (SDFFRX1M)                    0.00       0.00 r
+  counter/bit_cnt_reg_2_/QN (SDFFRX1M)                    0.33       0.33 r
+  counter/bit_cnt_reg_3_/SI (SDFFRX1M)                    0.00       0.33 r
+  data arrival time                                                  0.33
+
+  clock SysCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  counter/bit_cnt_reg_3_/CK (SDFFRX1M)                    0.00       0.05 r
+  library hold time                                      -0.20      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -0.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.48
+
+
+1
