@@ -1,4 +1,5 @@
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/30c5afd9-ea0f-47c5-a00f-d2006cc66f55)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/30cc8618-f9f5-4ecc-a375-e8ca8c7c1620)
+
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/efc1d159-bcb4-4bd4-91e1-535653f565d8)
 
 
