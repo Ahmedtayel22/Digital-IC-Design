@@ -1,6 +1,8 @@
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/30cc8618-f9f5-4ecc-a375-e8ca8c7c1620)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/bb46d02f-cda2-49d1-8bc6-42de6e5a2caf)
 
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/efc1d159-bcb4-4bd4-91e1-535653f565d8)
+
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/8f32ee19-b378-468b-bf3d-09741a1ee0e5)
+
 
 
 # Linear Feedback Shift Registers (LFSR) Introduction
