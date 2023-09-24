@@ -1,4 +1,5 @@
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/2d0a3c88-6f64-4742-989e-b138fc2012dc)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/bd52507b-a682-4b43-a7c5-fd7b2fa618b7)
+
 
 # 8 x 16 Register File in Verilog
 
