@@ -1,2 +1,4 @@
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/94e1471d-26d7-4deb-8fcc-7180ac6fbb67)
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/d7d9648d-1c48-4c8b-9c3e-a70da4c013df)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/6d153796-6f83-49e0-baf0-75c3b3348638)
+
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/575c5947-48b3-44b4-927e-0ef9acb959f9)
+
