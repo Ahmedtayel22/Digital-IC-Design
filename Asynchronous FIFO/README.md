@@ -1,4 +1,6 @@
-  ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/dc8824ff-e451-44f2-a91e-90f45c2c49ac)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/5472608e-b454-4a0c-b0b4-5a5e6f93c00b)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/d9fb741e-6145-4a3f-8299-570a00ce70fe)
+
 
 # Asynchronous FIFO Memory
 
