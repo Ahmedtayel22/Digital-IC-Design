@@ -6,11 +6,11 @@
 //****************************************************//
 //******************** Parameters ********************//
 //****************************************************//
-//"Delay refers" --> No.cycles 
 //"no_sync_stages" --> no.of stages @ the bit_sync 
+//"desired_Delay refers" --> No.cycles 
 //"Counter_width" --> bit_width of counter 
 
-module Debouncer #(parameter no_sync_stages = 2, Delay = 100, 
+module Debouncer #(parameter no_sync_stages = 2, desired_Delay = 100, 
 Counter_width = 8)
 (noisy_IN, CLK, RST, Debouncer_out);
 input noisy_IN;
@@ -19,6 +19,8 @@ input RST;
 output Debouncer_out;
 
 wire SYNC_WIRE;
+wire timer_DONE_WIRE;
+wire timer_EN_WIRE;
 
 BIT_SYNC #(1,no_sync_stages) DUT0
 (
@@ -41,7 +43,7 @@ FSM DUT3
 );
 
 
-Timer #(.delay_time(Delay), .counter_width(Counter_width))DUT1
+Timer #(.delay_time(desired_Delay), .counter_width(Counter_width))DUT1
 (
     .timer_EN(timer_EN_WIRE),
     .CLK(CLK),
