@@ -12,7 +12,7 @@ input                  CLK;
 output [BUS_WIDTH-1:0] SYNC;
 
 reg [BUS_WIDTH-1:0]  SYNC;
-reg [NUM_STAGES-2:0] Multi_ff [0:BUS_WIDTH-1]; //regFile  
+reg [NUM_STAGES-2:0] Multi_ff [0:BUS_WIDTH-1];  
 
 integer i;
 integer J;
