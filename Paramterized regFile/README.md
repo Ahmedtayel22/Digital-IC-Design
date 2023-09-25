@@ -1,13 +1,12 @@
-## Block Interface
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/c79458fe-45ce-4b3e-94f8-33aede72cfbd)
-
-
-
 # 8 x 16 Register File in Verilog
 
 ## Register File Overview
 
 The 8 x 16 Register File is a fundamental component designed in Verilog, consisting of eight registers, each with a width of 16 bits. This Register File incorporates essential data buses for reading (RdData) and writing (WrData), as well as a single shared address bus (Address) used for both read and write operations.
+
+## Block Interface
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/c79458fe-45ce-4b3e-94f8-33aede72cfbd)
+
 
 ### Register Access
 
