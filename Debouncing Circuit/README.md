@@ -1,5 +1,6 @@
 ## Block Interface
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/8622230c-c97c-4355-9f85-d9976702f3dc)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/5eb0b1ca-17c8-4bc8-b35a-6603e32df17d)
+
 ## Block Diagram
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/23d5308b-7447-450b-b3ec-a770e57d59b0)
 ## WAVE FORM
