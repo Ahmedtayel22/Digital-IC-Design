@@ -1,13 +1,11 @@
+# Asynchronous FIFO Memory
+
+The Asynchronous FIFO Memory is a specialized two-port memory structure designed with a predefined depth capacity. It operates using a dual-clock architecture, consisting of two separate clocks: one for read operations (i_rclk) and another for write operations (i_wclk).
 ## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/269ee3bc-06bd-41cf-a749-12b1abf4a7bf)
 
 ## Architecture
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/d9fb741e-6145-4a3f-8299-570a00ce70fe)
-
-
-# Asynchronous FIFO Memory
-
-The Asynchronous FIFO Memory is a specialized two-port memory structure designed with a predefined depth capacity. It operates using a dual-clock architecture, consisting of two separate clocks: one for read operations (i_rclk) and another for write operations (i_wclk).
 
 ## Key Features
 
