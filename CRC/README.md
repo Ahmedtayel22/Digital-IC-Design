@@ -1,16 +1,14 @@
+# Linear Feedback Shift Registers (LFSR) Introduction
+
+## What is LFSR?
+
+The Linear Feedback Shift Register (LFSR) is a specialized shift register designed with a feedback mechanism that combines certain output bits using exclusive-OR or exclusive-NOR configurations. The initial content of the shift register, known as the seed, is a crucial parameter. It's worth noting that any value can be used as a seed, except for an all-zero state, which is typically avoided to prevent a lookup state.
 ## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/22a250ba-1a08-4b35-a8af-96e33e38277b)
 
 ## Block Diagram
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/8f32ee19-b378-468b-bf3d-09741a1ee0e5)
 
-
-
-# Linear Feedback Shift Registers (LFSR) Introduction
-
-## What is LFSR?
-
-The Linear Feedback Shift Register (LFSR) is a specialized shift register designed with a feedback mechanism that combines certain output bits using exclusive-OR or exclusive-NOR configurations. The initial content of the shift register, known as the seed, is a crucial parameter. It's worth noting that any value can be used as a seed, except for an all-zero state, which is typically avoided to prevent a lookup state.
 
 ## LFSR Applications
 
