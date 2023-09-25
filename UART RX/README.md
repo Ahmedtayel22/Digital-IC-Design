@@ -1,12 +1,13 @@
+# Serial Communication Overview
+
+Serial communication encompasses various protocols like I2C, UART, and SPI, each serving unique purposes in digital systems. This README delves into the Universal Asynchronous Receiver/Transmitter (UART), a critical circuitry component dedicated to serial communication.
 ## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/4d6ca6c6-9e42-4460-bed4-2af591f8b613)
 
 ## Block Diagram
 ![UART_RX](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/26ec0148-9266-4792-82a1-53eb3534c165)
 
-# Serial Communication Overview
 
-Serial communication encompasses various protocols like I2C, UART, and SPI, each serving unique purposes in digital systems. This README delves into the Universal Asynchronous Receiver/Transmitter (UART), a critical circuitry component dedicated to serial communication.
 
 ## UART Essentials
 
