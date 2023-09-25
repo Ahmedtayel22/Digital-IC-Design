@@ -1,5 +1,6 @@
 ## Block Interface
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/b377b5bf-9e8e-4e00-bbfd-a4a4e5d4b069)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/8f03c669-9cda-460c-86dc-1af4a4c9d129)
+
 
 
 # Integer Clock Divider
