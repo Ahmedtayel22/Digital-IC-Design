@@ -1,5 +1,6 @@
 ## Block Interface
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/ee3a8a91-f371-456c-9885-a64a43bb013d)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/4d6ca6c6-9e42-4460-bed4-2af591f8b613)
+
 ## Block Diagram
 ![UART_RX](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/26ec0148-9266-4792-82a1-53eb3534c165)
 
