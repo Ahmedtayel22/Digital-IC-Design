@@ -1,6 +1,6 @@
+## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/ff7cc431-11c2-4595-895e-da7192694adc)
-
-
+## FSM
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/dd99457f-fc40-4309-8ad1-9c4a218d5e74)
 
 
