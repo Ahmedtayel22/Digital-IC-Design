@@ -1,3 +1,9 @@
+# Debouncing Circuit
+
+## Introduction
+
+Buttons or mechanical switches often introduce noise or bouncing effects in digital systems. This debouncing circuit addresses these issues using a "delay detection debouncing technique."
+
 ## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/5eb0b1ca-17c8-4bc8-b35a-6603e32df17d)
 
@@ -6,13 +12,6 @@
 ## WAVE FORM
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/a40fbff5-0ae7-4d8d-af34-f893b6d41f91)
 
-
-
-# Debouncing Circuit
-
-## Introduction
-
-Buttons or mechanical switches often introduce noise or bouncing effects in digital systems. This debouncing circuit addresses these issues using a "delay detection debouncing technique."
 
 ## Design Overview
 
