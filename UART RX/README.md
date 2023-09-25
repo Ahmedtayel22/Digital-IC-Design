@@ -1,6 +1,6 @@
+## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/ee3a8a91-f371-456c-9885-a64a43bb013d)
-
-
+## Block Diagram
 ![UART_RX](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/26ec0148-9266-4792-82a1-53eb3534c165)
 
 # Serial Communication Overview
