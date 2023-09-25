@@ -1,15 +1,15 @@
+# Automatic Garage Door Controller
+
+## Introduction
+
+The Automatic Garage Door Controller employs a Finite State Machine (FSM) as a fundamental tool for implementing controllers and sequencers. The FSM features finite inputs, outputs, and a specific number of states. At each clock edge, combinational logic computes outputs and determines the next state based on inputs and the current state. Two types of FSMs are employed: Moore FSM (where outputs change with the clock edge) and Mealy FSM (where outputs change independently of the clock edge).
+
 ## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/c2a40071-b693-4ddb-b246-72a7b49f83b4)
 
 ## FSM
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/dd99457f-fc40-4309-8ad1-9c4a218d5e74)
 
-
-# Automatic Garage Door Controller
-
-## Introduction
-
-The Automatic Garage Door Controller employs a Finite State Machine (FSM) as a fundamental tool for implementing controllers and sequencers. The FSM features finite inputs, outputs, and a specific number of states. At each clock edge, combinational logic computes outputs and determines the next state based on inputs and the current state. Two types of FSMs are employed: Moore FSM (where outputs change with the clock edge) and Mealy FSM (where outputs change independently of the clock edge).
 
 ## Specifications
 
