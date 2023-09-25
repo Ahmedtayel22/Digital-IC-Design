@@ -1,6 +1,6 @@
+## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/bb46d02f-cda2-49d1-8bc6-42de6e5a2caf)
-
-
+## Block Diagram
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/8f32ee19-b378-468b-bf3d-09741a1ee0e5)
 
 
