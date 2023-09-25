@@ -1,10 +1,4 @@
-## Block Interface
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/98730bd8-03c2-4411-b65d-430fb3c16249)
-
-## Block Diagram
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/e0d37bfd-2c91-41a7-8df7-5f6c73d0aeaf)
 # 16-bit Arithmetic Logic Unit (ALU) - ALU_TOP
-
 ## Introduction
 
 ALU_TOP serves as the foundational building block of a processor, playing a vital role in executing a diverse set of functions:
@@ -14,6 +8,12 @@ ALU_TOP serves as the foundational building block of a processor, playing a vita
 - **Shift Functions:** Controlled by the SHIFT_UNIT block.
 - **Comparison Functions:** Handled by the CMP_UNIT block.
 - **Function Decoding:** The Decoder Unit enables specific functions based on the most significant 2 bits of the ALU_FUNC control bus (ALU_FUNC[3:2]).
+
+## Block Interface
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/98730bd8-03c2-4411-b65d-430fb3c16249)
+
+## Block Diagram
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/e0d37bfd-2c91-41a7-8df7-5f6c73d0aeaf)
 
 ## Specifications
 
