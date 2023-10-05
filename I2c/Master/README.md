@@ -53,7 +53,8 @@ I2C supports various communication modes, each with distinct characteristics:
 4. **Ultra-Fast Mode**: In Ultra-Fast Mode, communication reaches a blazing 5MHz.
 
 ## Finite state machine [FSM]
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/fc210fe6-c0c9-40cc-8ba8-599de4a1a208)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/0daf1e27-fe29-4155-9104-16e6e71f093c)
+
 
 ## BLOCK INTERFACE
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/d0d34968-961a-4564-91f8-fa2723cfa753)
