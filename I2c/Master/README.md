@@ -25,7 +25,7 @@ I2C follows a standard message format consisting of the following components:
 
 1. **Start Condition**: The communication begins with a start condition.
 
-2. **Slave Address**: The address of the target device (slave) is transmitted.
+2. **Slave Address**: The address of the target device (slave) is transmitted - (7_bits).
 
 3. **Read/Write Bit**: A bit indicating whether the master intends to read (R) or write (W) data.
 
@@ -36,6 +36,9 @@ I2C follows a standard message format consisting of the following components:
 6. **ACK Bit**: An acknowledgment bit is transmitted to confirm the receipt of data.
 
 7. **Stop Condition**: The communication concludes with a stop condition.
+
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/1900e0cb-31f9-46dc-b5ec-7ca2fc3bdf82)
+
 
 ## I2C Communication Modes
 
@@ -49,7 +52,7 @@ I2C supports various communication modes, each with distinct characteristics:
 
 4. **Ultra-Fast Mode**: In Ultra-Fast Mode, communication reaches a blazing 5MHz.
 
-## FSM
+## Finite state machine [FSM]
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/fc210fe6-c0c9-40cc-8ba8-599de4a1a208)
 
 ## BLOCK INTERFACE
@@ -65,6 +68,22 @@ When implementing I2C in RTL (Register-Transfer Level) design, it's crucial to a
 For more detailed technical information and implementation specifics, refer to the relevant documentation and resources.
 
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/c9d51a93-b4e3-4855-ac82-b167b269b0e0)
+
+## References
+1) ## Papper
+Perspectives in Communication, Embedded-Systems and Signal-Processing (PiCES) – An International Journal
+ISSN: 2566-932X, Vol. 4, Issue 9, December 2020
+Part of the Proceedings of the 1st All India Paper writing Competition on Emerging Research - PaCER 2020
+
+"Design of I2C Protocol in Verilog-A New 
+Approach"
+
+Link: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiq9Z_fo9-BAxVV0AIHHc8OAD8QFnoECAkQAQ&url=https%3A%2F%2Fd-nb.info%2F122452540X%2F34&usg=AOvVaw0HdjkEAbv_FTqJB5i3aW1G&opi=89978449
+
+2) ## Anas Salah Eddin channel:
+Link: https://youtu.be/64KHN-Z4r2w?si=Hd65olrJ8H8WR2T7
+
+
 
 
 
