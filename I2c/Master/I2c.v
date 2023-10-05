@@ -54,9 +54,6 @@ assign qutr = dvsr;
 assign half = qutr<<1;
 assign ack  = cmd == WR_CMD ? sda_in:1;
 assign dout = READ_DONE ? rx_reg[8:1]:0;
-//assign READ_DONE = ((bit_cnt == 8) && (cmd == RD_CMD)) ? 1'b1:1'b0;
-//assign disconnect_line = (bit_cnt == 8 || (cmd == RD_CMD && bit_cnt < 8))? 1'b1:1'b0;
-//assign sda_out = (disconnect_line) ? 1'bz : sda_out;
  
 always @(posedge clk or negedge rst) 
 begin
