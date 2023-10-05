@@ -63,6 +63,23 @@ I2C supports various communication modes, each with distinct characteristics:
 ## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/d0d34968-961a-4564-91f8-fa2723cfa753)
 
+**wr_i2c**    --> enable the controller.
+
+**cmd**       --> 
+
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/a8e417e4-6cf0-45f0-a4f7-a0cc28e0abed)
+
+**din**       --> data to send to slave (address of the slave of data bytes).
+
+**sda_in**    --> it seems like the sda_out from the slave "look at RTL design considerations".
+
+**dout**     --> data received from slave.
+
+**ack**      --> acknowledgement comes from slave after receiving byte.
+
+**ready**     --> master ready for a new cmd.
+
+**done_tick** --> signal high after send or recive a byte.
 
 
 
@@ -80,8 +97,8 @@ Perspectives in Communication, Embedded-Systems and Signal-Processing (PiCES) â€
 ISSN: 2566-932X, Vol. 4, Issue 9, December 2020
 Part of the Proceedings of the 1st All India Paper writing Competition on Emerging Research - PaCER 2020
 
-"Design of I2C Protocol in Verilog-A New 
-Approach"
+**"Design of I2C Protocol in Verilog-A New
+Approach"**
 
 Link: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiq9Z_fo9-BAxVV0AIHHc8OAD8QFnoECAkQAQ&url=https%3A%2F%2Fd-nb.info%2F122452540X%2F34&usg=AOvVaw0HdjkEAbv_FTqJB5i3aW1G&opi=89978449
 
