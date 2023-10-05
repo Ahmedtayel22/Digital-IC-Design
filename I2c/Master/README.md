@@ -67,7 +67,8 @@ I2C supports various communication modes, each with distinct characteristics:
 
 **cmd**       --> 
 
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/a8e417e4-6cf0-45f0-a4f7-a0cc28e0abed)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/50c72545-3283-4818-866e-9b2d3ad2e47a)
+
 
 **din**       --> data to send to slave (address of the slave of data bytes).
 
