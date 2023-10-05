@@ -14,7 +14,8 @@ In I2C communication, data transfer occurs in a half-duplex fashion. This means 
 
 - **Multi-Master Communication**: I2C permits multiple masters to engage in the communication, making it a versatile protocol for various applications.
 
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/73c23d90-f59e-4ecb-8e78-454f43c61842)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/7a47fbc7-2542-4738-b4df-24980871f494)
+
 
 
 ## I2C Message Format
