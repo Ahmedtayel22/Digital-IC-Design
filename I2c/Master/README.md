@@ -58,7 +58,7 @@ I2C supports various communication modes, each with distinct characteristics:
 
 
 
-## BLOCK INTERFACE
+## Block Interface
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/d0d34968-961a-4564-91f8-fa2723cfa753)
 
 
