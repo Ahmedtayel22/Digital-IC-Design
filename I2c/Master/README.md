@@ -82,6 +82,10 @@ I2C supports various communication modes, each with distinct characteristics:
 
 **done_tick** --> signal high after send or recive a byte.
 
+**sda_out**   --> data output line.
+
+**scl**       --> clock generated line.
+
 
 
 ## RTL Design Considerations
