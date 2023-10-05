@@ -40,6 +40,8 @@ I2C follows a standard message format consisting of the following components:
 
 ![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/1900e0cb-31f9-46dc-b5ec-7ca2fc3bdf82)
 
+## Wave Form
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/8d6a69ec-7d23-44e6-b2e3-f62137143249)
 
 ## I2C Communication Modes
 
