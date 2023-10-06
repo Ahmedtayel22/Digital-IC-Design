@@ -61,7 +61,12 @@ I2C supports various communication modes, each with distinct characteristics:
 
 
 ## Block Interface
-![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/d0d34968-961a-4564-91f8-fa2723cfa753)
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/93471c8b-28e9-4fc5-82d9-710b52aaf5fb)
+
+dvsr          --> 
+
+![image](https://github.com/Ahmedtayel22/Digital-IC-Design/assets/105231666/cdb02aed-5740-44a0-a9ae-058b479e1cc1)
+
 
 **wr_i2c**    --> enable the controller.
 
